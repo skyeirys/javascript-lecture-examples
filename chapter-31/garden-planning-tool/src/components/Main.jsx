@@ -35,17 +35,17 @@ let testPlants = [
 const Main = () => {
   // TODO #1: Create state variable to hold all plant objects and give it an initial value of testPlants for now
 
-  // TODO #17: Create state variable to track loading status
+  // TODO #15: Create state variable to track loading status
 
-  // TODO #15: Write an asynchronous function to fetch JSON and create an array of JS objects
+  // TODO #13: Write an asynchronous function to fetch JSON and create an array of JS objects
   // Alphabetize them by name before updating allPlants state variable
 
-  // TODO #16: Set a useEffect() hook to run once and call fetch function
+  // TODO #14: Set a useEffect() hook to run once and call fetch function
 
-  // TODO #18: Set a second useEffect() hook to set loading to false once allPlants has objects
+  // TODO #16: Set a second useEffect() hook to set loading to false once allPlants has objects
 
   // TODO #9: Write two handlers for updating allPlants when plants are allocated or returned
-  // TODO #20: Make sure they update only if plants are still available to return or allocate
+  // TODO #18: Make sure they update only if plants are still available to return or allocate
 
   // TODO #10: Add props to AvailablePlant to pass down handlers for returning and allocating plants
   // Make sure these are being built from allPlants instead of testPlants
@@ -58,7 +58,7 @@ const Main = () => {
     );
   });
 
-  // TODO #19: Prevent page from rendering until data has been fetched (use loading state variable)
+  // TODO #17: Prevent page from rendering until data has been fetched (use loading state variable)
   return (
     <main>
       <div id="left-column">
@@ -67,8 +67,8 @@ const Main = () => {
       </div>
 
       <div id="right-column">
-        {/* TODO #14: Make sure selectedPlants is using allPlants instead of testPlants */}
-        {/* TODO #21: Filter allPlants so that only plants with allocations are included */}
+        {/* TODO #12: Make sure selectedPlants is using allPlants instead of testPlants */}
+        {/* TODO #19: Filter allPlants so that only plants with allocations are included */}
         <Flowerbed
           selectedPlants={testPlants}
         />
