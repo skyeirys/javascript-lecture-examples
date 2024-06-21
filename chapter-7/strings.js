@@ -119,4 +119,4 @@ firstName = firstName.replace(firstName[0], firstName[0].toUpperCase());
 
 // TODO: Use a template literal to print a greeting with the name
 
-console.log (`"Hello, ${firstName}. "`);
+console.log (`"Hello, ${firstName}."`);
